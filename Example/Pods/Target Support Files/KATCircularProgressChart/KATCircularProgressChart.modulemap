@@ -1,6 +1,0 @@
-framework module KATCircularProgressChart {
-  umbrella header "KATCircularProgressChart-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/KATCircularProgressChart.svg?style=flat)](http://cocoapods.org/pods/KATCircularProgressChart)
 [![Platform](https://img.shields.io/cocoapods/p/KATCircularProgressChart.svg?style=flat)](http://cocoapods.org/pods/KATCircularProgressChart)
 
-<img src="https://github.com/TharinduKetipe/KATCircularProgressChart/blob/master/Resources/Screenshots/CircularProgressDemo.gif" height=700>
+<img src="https://github.com/TharinduKetipe/KATCircularProgressChart/blob/master/Resources/CircularProgressDemo.gif" height=700>
 
 On HUD => https://github.com/TharinduKetipe/KATCircularProgressChart
 

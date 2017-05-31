@@ -22,7 +22,7 @@ pod "KATCircularProgressChart"
 
 ## Author
 
-TharinduKetipe, tharindu.k@eyepax.com
+Tharindu Ketipearachchi, katramesh91@gmail.com
 
 ## License
 

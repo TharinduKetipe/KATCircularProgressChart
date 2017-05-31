@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/KATCircularProgressChart.svg?style=flat)](http://cocoapods.org/pods/KATCircularProgressChart)
 [![Platform](https://img.shields.io/cocoapods/p/KATCircularProgressChart.svg?style=flat)](http://cocoapods.org/pods/KATCircularProgressChart)
 
+<img src="https://github.com/TharinduKetipe/KATCircularProgressChart/blob/master/Resources/Screenshots/CircularProgressDemo.gif" height=700>
+
+On HUD => https://github.com/TharinduKetipe/KATCircularProgressChart
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

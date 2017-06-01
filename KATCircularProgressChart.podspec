@@ -30,7 +30,7 @@ s.description      = <<-DESC
   s.source           = { :git => 'https://github.com/TharinduKetipe/KATCircularProgressChart.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/Kat_sper'
 
-  s.ios.deployment_target = '8.0'
+  #s.ios.deployment_target = '8.0'
 
   s.source_files = 'KATCircularProgressChart/Classes/**/*'
   

@@ -186,11 +186,14 @@ Also you can adjust the animation duration as well.
 ```
 
 
-
+##Strength
+This is really simple chart you can build lot more complex animations upon this. We are guranteed this
+comes with high performace without UI lagging or any performace issues.
 
 ## Author
 
 Tharindu Ketipearachchi, katramesh91@gmail.com
+tl;dr
 [linkedIn](https://www.linkedin.com/in/tharinduketipe)
 
 ## License

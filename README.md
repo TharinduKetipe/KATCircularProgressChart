@@ -28,7 +28,7 @@ On HUD => https://github.com/TharinduKetipe/KATCircularProgressChart
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-or [appetize.io](https://appetize.io/app/)
+or [appetize.io](https://appetize.io/embed/za9vn208hgzjt7059v7d3ty4ur)
 
 ## Requirements
 - iOS 8.0+

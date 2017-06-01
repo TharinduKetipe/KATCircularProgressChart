@@ -9,6 +9,15 @@
 
 On HUD => https://github.com/TharinduKetipe/KATCircularProgressChart
 
+- [Features](#features)
+- [Example](#example)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Strength](#strength)
+- [Author](#author)
+- [License](#license)
+
 ## Features
 - Circular Progress Chart with animation.
 - Bar thickness can be customized.
@@ -193,7 +202,7 @@ comes with high performace without UI lagging or any performace issues.
 ## Author
 
 Tharindu Ketipearachchi, katramesh91@gmail.com
-tl;dr
+
 [linkedIn](https://www.linkedin.com/in/tharinduketipe)
 
 ## License

@@ -56,6 +56,128 @@ $ pod install
 If you prefer not to use either of the aforementioned dependency managers, you can integrate SendIndicator into your project manually.
 Just need to add "KATCircularProgress.h" and "KATCircularProgress.h" files to your project.
 
+##Usage
+
+First import "KATCircularProgress.h" file to your view controller.
+
+```objc
+#import "KATCircularProgress.h"
+```
+Then create a UIView from the storyboard which contains the same width and height. Then make an outlet to you view controller.
+
+```objc
+#import "ViewController.h"
+#import "KATCircularProgress.h"
+
+@interface ViewController () {
+
+}
+
+@property (strong, nonatomic) IBOutlet KATCircularProgress *ProgressChart;
+
+@end
+
+```
+Each entry you need to add as a SliceItem object which contains itemValue (float) and ItemColor (UIColor).Create few slice items
+like this.
+
+```objc
+SliceItem *item1 = [[SliceItem alloc] init];
+item1.itemValue = 50.0; // value should be a float value
+item1.itemColor = [UIColor blueColor]; // color should be a UIColor value
+
+SliceItem *item2 = [[SliceItem alloc] init];
+item2.itemValue = 100.0;
+item2.itemColor = [UIColor greenColor];
+
+SliceItem *item3 = [[SliceItem alloc] init];
+item3.itemValue = 150.0;
+item3.itemColor = [UIColor yellowColor];
+
+```
+Then add these objects to sliceItems array which is property of your KATCircularProgress.
+
+```objc
+[self.ProgressChart.sliceItems addObject:item1];
+[self.ProgressChart.sliceItems addObject:item2];
+[self.ProgressChart.sliceItems addObject:item3];
+
+```
+When you are using this char again and again (Like a list view) Please make sure clear the array before adding the new items.
+
+```objc
+[self.ProgressChart.sliceItems removeAllObjects];
+
+```
+Finaly reload the progress chart.
+
+```objc
+[self.ProgressChart reloadData];
+
+```
+Here is the full source file.
+
+```objc
+#import "ViewController.h"
+#import "KATCircularProgress.h"
+
+@interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet KATCircularProgress *progressChart;
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+[super viewDidLoad];
+
+SliceItem *item1 = [SliceItem new];
+item1.itemValue = 25.0;
+item1.itemColor = [UIColor greenColor];
+
+SliceItem *item2 = [SliceItem new];
+item2.itemValue = 35.0;
+item2.itemColor = [UIColor yellowColor];
+
+SliceItem *item3 = [SliceItem new];
+item3.itemValue = 125.0;
+item3.itemColor = [UIColor orangeColor];
+
+SliceItem *item4 = [SliceItem new];
+item4.itemValue = 75.0;
+item4.itemColor = [UIColor blueColor];
+
+[self.ProgressChart.sliceItems removeAllObjects];
+
+[self.progressChart.sliceItems addObject:item1];
+[self.progressChart.sliceItems addObject:item2];
+[self.progressChart.sliceItems addObject:item3];
+[self.progressChart.sliceItems addObject:item4];
+
+[self.progressChart reloadData];
+
+}
+
+@end
+
+
+```
+
+For more information please refer the example project. It contains more details about
+how to use this pod with UITableView for the list populations.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Author
 
